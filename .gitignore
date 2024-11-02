@@ -1,0 +1,45 @@
+# PROJECT
+# Local folder for files that are required temporarily
+.build-*
+.project
+# Generated configuration
+.env.values
+docker-compose.yml
+
+# LANGUAGES
+# Java
+/**/*.class
+/**/*.jar
+# Python
+/env/
+/**/*.pyc
+/**/__pycache__
+
+# DEVELOPMENT TOOLS
+# Vscode
+.vscode
+# Vim
+*.swp
+# IntelliJ IDEA
+/**/.idea/
+/**/*.iml
+/**/*.ipr
+/**/*.iws
+# Eclipse
+/**/.classpath
+/**/.target
+/**/.project
+/**/.settings/
+/**/.metadata/
+/**/bin/
+# Maven
+/**/target/
+/**/.m2
+
+# BUILD
+# Ignore all files in ./build/ folder
+/build/**
+# Except .template
+!/build/**/*.template
+# Except README.md
+!/build/**/README.md
